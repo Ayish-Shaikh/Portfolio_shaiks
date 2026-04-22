@@ -1,11 +1,12 @@
 import { dev } from '$app/environment';
 import { handleErrorWithSentry, init as initSentry } from '@sentry/sveltekit';
-import { PUBLIC_SENTRY_DSN } from '$env/static/public';
+
+const dsn = import.meta.env.PUBLIC_SENTRY_DSN;
 
 // Only initialize Sentry if DSN is configured
-if (PUBLIC_SENTRY_DSN && PUBLIC_SENTRY_DSN !== 'https://your-sentry-dsn@sentry.io/project-id') {
+if (dsn && dsn.trim() !== '' && dsn !== 'https://your-sentry-dsn@sentry.io/project-id') {
   initSentry({
-    dsn: PUBLIC_SENTRY_DSN,
+    dsn,
     environment: dev ? 'development' : 'production',
     tracesSampleRate: dev ? 1.0 : 0.1,
 
