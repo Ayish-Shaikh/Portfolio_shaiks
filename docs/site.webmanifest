@@ -1,0 +1,21 @@
+{
+  "name": "Ayish Shaikh - Portfolio",
+  "short_name": "Ayish Shaikh",
+  "description": "Java Full Stack Developer specializing in Spring Boot, REST APIs, and React. Portfolio showcasing backend architecture, system design, and full-stack projects.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#1e1e2e",
+  "theme_color": "#74c7ec",
+  "icons": [
+    {
+      "src": "/assets/as-logo.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "/assets/favicon.ico",
+      "sizes": "32x32",
+      "type": "image/x-icon"
+    }
+  ]
+}

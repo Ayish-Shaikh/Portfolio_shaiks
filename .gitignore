@@ -1,0 +1,36 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# SvelteKit
+.svelte-kit/
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Vite
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
+
+# Debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+local-no-commit/
+build-script/
+static/projects/DrishT_Paper.md
+static/projects/DrishT_Thesis.pdf
