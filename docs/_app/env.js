@@ -1,1 +1,1 @@
-export const env={"PUBLIC_SENTRY_DSN":""}
+export const env={}
