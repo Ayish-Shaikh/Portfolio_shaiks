@@ -4,9 +4,9 @@
   "private": true,
   "scripts": {
     "dev": "vite dev",
-  "build": "vite build",
-  "preview": "vite preview",
-  "optimize-images": "node build-script/optimize-images.js"
+    "build": "vite build",
+    "preview": "vite preview",
+    "optimize-images": "node build-script/optimize-images.js"
   },
   "devDependencies": {
     "@sveltejs/adapter-static": "^3.0.10",
@@ -31,6 +31,7 @@
   "type": "module",
   "dependencies": {
     "@sentry/sveltekit": "^10.32.1",
+    "@vercel/analytics": "^2.0.1",
     "animejs": "^4.2.2",
     "leaflet": "^1.9.4",
     "lucide-svelte": "^0.562.0",

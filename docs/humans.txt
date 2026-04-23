@@ -1,0 +1,8 @@
+/* TEAM */
+Developer: Ayish Shaikh
+Location: Kolkata, West Bengal, India
+GitHub: https://github.com/Ayish-Shaikh
+
+/* SITE */
+Language: English
+Technology: SvelteKit, TailwindCSS, Vite
